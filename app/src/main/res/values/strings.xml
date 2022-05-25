@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gallery Ax Admin</string>
+
+    <string name="pictures_list_page_title">تصاویر %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

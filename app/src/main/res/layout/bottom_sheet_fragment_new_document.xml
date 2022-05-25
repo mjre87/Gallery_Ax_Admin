@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bottomsheets.CreateNewDocumentBottomSheetFragment"
+    android:background="@color/black"
+    android:layoutDirection="ltr"
+    android:paddingVertical="24dp"
+    android:paddingHorizontal="16dp">
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:alpha="0">
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true"
+            app:indicatorColor="@color/yellow"
+            app:trackColor="@color/light_black"
+            app:trackCornerRadius="20dp"
+            app:trackThickness="2dp" />
+
+        <TextView
+            android:id="@+id/status_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd_regular"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="11sp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/new_document_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/new_document_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/vazir_fd_bold"
+            android:text="اضافه کردن تصویر جدید"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/document_title_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_grey_curved"
+            android:ems="10"
+            android:fontFamily="@font/vazir_fd_medium"
+            android:hint="عنوان تصویر"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/dark_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/new_document_title_tv" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="16dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="7dp"
+            app:cardBackgroundColor="@color/light_black"
+            app:layout_constraintBottom_toTopOf="@id/buttons_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/document_title_et">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.oginotihiro.cropview.CropView
+                    android:id="@+id/image_cropper"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/load_new_image_ib"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shape_grey_curved"
+                    android:backgroundTint="@color/yellow"
+                    android:src="@drawable/ic_image"
+                    app:tint="@color/light_black"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="bottom|start" />
+
+            </FrameLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/cancel_button"
+                style="@style/Theme.GalleryAx.GhostButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="بی خیال!" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_button"
+                style="@style/Theme.GalleryAx.PrimaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:icon="@drawable/ic_add"
+                app:iconGravity="textEnd"
+                android:text="اضافه کن" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

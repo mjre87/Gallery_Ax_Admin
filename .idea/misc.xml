@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_add.xml" value="0.403125" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_app_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_arrow_back.xml" value="0.403125" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_delete.xml" value="0.255" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_edit.xml" value="0.255" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_logo.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/ic_logo_icon.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/shape_grey_curved.xml" value="0.403125" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/drawable/splash_screen_background.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/font/g_aseman.xml" value="0.4171875" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/activity_pictures_list.xml" value="0.26403641881638845" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/bottom_sheet_fragment_choose_function.xml" value="0.33" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/bottom_sheet_fragment_delete_category.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/bottom_sheet_fragment_delete_document.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/bottom_sheet_fragment_delete_picture.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/bottom_sheet_fragment_new_document.xml" value="0.1" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/bottom_sheet_fragment_update_document.xml" value="0.1" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/category_item_layout.xml" value="0.33" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/fragment_new_category.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/fragment_new_picture.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/layout/picture_item_layout.xml" value="0.27052489905787347" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/mipmap-anydpi-v26/ic_app_launcher.xml" value="0.403125" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/mipmap-anydpi-v26/ic_app_launcher_round.xml" value="0.403125" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.403125" />
+        <entry key="..\:/Users/MJRE/AndroidStudioProjects/GalleryAxAdmin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1965" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
